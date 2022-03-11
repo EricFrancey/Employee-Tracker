@@ -31,22 +31,21 @@ const db = mysql.createConnection({
 
 
 function addDeptPrompt() {
-    console.log('hi1');
+ 
     inquirer.prompt({
         type: 'input',
         message: 'Enter new department:',
         name: 'addDept'
   
     }).then(function (answer) {
- 
-    console.log('hi2')
         db.query(`INSERT INTO department (name) VALUES ('${answer.addDept}')`)
       startPrompts();
     })  
 };
-//////////// works
+
+
 function addRolePrompt() {
-    // console.log('hi1');
+
     inquirer.prompt([
         {
         type: 'input',
@@ -55,7 +54,7 @@ function addRolePrompt() {
     }
 
 ]).then(function (answer) {
-    // console.log('hi2')
+
         db.query(`
         
         INSERT INTO role (department_id) VALUES ('${answer.addRoleDept}');
