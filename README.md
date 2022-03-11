@@ -44,13 +44,16 @@ npm start to begin.
 ```
 
 ## Demo
-
+[Demo video link](https://drive.google.com/file/d/1xurNTjW5frwUamDRVO3QjNmPy8aQS-F9/view?usp=sharing)
 
 ## Bugs
 
 ```md
 Adding functions not working properly.
 ```
+## Questions
+You may contact me on GitHub.
+
 
 ## Credits
 
